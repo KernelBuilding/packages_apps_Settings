@@ -212,6 +212,13 @@
             android:summary="@string/touch_polling_summary"
             settings:controller="com.android.settings.display.TouchPollingPreferenceController" />
 
+        <com.scandium.home.preferences.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen"
+            settings:requiresConfig="@bool/config_show_top_level_battery" />
+
         <com.scandium.home.preferences.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"

@@ -41,7 +41,7 @@
     <string name="about_contributor_1_summary" translatable="false">Founder</string>
     <string name="about_contributor_2_title" translatable="false">PGYT PROJECT</string>
     <string name="about_contributor_2_summary" translatable="false">Co-founder &amp; Lead Developer</string>
-    <string name="about_contributor_3_title" translatable="false">Piccaso09</string>
+    <string name="about_contributor_3_title" translatable="false">Picasso09</string>
     <string name="about_contributor_3_summary" translatable="false">Core Developer</string>
     <string name="about_contributor_4_title" translatable="false">Rza</string>
     <string name="about_contributor_4_summary" translatable="false">UI/UX Design</string>
@@ -420,6 +420,10 @@
     <!-- HDR Display -->
     <string name="hdr_display_title">HDR Display</string>
     <string name="hdr_display_summary">Enable peak brightness for HDR content. This will increase battery usage</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Do not validate</string>
