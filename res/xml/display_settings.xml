@@ -169,6 +169,12 @@
             settings:keywords="@string/keywords_refresh_rate"
             settings:controller="com.android.settings.display.RefreshRatePreferenceController"/>
 
+        <SwitchPreference
+            android:key="disable_vrr"
+            android:title="@string/disable_vrr_title"
+            android:summary="@string/disable_vrr_summary"
+            settings:controller="com.android.settings.display.VrrPreferenceController"/>
+
         <SwitchPreferenceCompat
             android:key="touch_rate"
             android:title="@string/touch_rate_title"
