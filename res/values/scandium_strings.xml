@@ -149,6 +149,10 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store" translatable="false">Google Play</string>
 
+    <!-- AdBlock -->
+    <string name="enable_adblock">Enable AdBlock</string>
+    <string name="enable_adblock_summary">Blocks various ads and trackers system-wide.</string>
+
     <!-- Private DNS -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard (CT)</string>
     <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
