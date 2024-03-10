@@ -75,18 +75,18 @@
         android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
         settings:keywords="@string/keywords_battery_info"/>
 
+    <SwitchPreferenceCompat
+        android:key="fast_charging"
+        android:title="@string/fast_charging_title"
+        android:summary="@string/fast_charging_summary"
+        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
+
     <Preference
         android:key="charging_control"
         android:title="@string/charging_control_title"
         android:summary="@string/charging_control_summary"
         android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
         settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
-
-    <SwitchPreferenceCompat
-        android:key="fast_charging"
-        android:title="@string/fast_charging_title"
-        android:summary="@string/fast_charging_summary"
-        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
