@@ -200,7 +200,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.blaze.house.BlazeHouse;
+import com.scandium.home.ScandiumHome;
 
 import con.android.settings.wifi.tether.WifiTetherClientManager;
 
@@ -390,8 +390,7 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
-            // Project Blaze additions
-            BlazeHouse.class.getName(),
+            ScandiumHome.class.getName(),
             ResetNetwork.class.getName(),
             VibrationIntensitySettingsFragment.class.getName(),
             WifiTetherClientManager.class.getName()
@@ -441,7 +440,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-             // Project Blaze additions
-            Settings.BlazeHouseSettingsActivity.class.getName(),
+            Settings.ScandiumHomeSettingsActivity.class.getName(),
     };
 }

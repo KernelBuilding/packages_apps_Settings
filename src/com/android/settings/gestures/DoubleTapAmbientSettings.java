@@ -42,6 +42,6 @@ public class DoubleTapAmbientSettings extends SettingsPreferenceFragment impleme
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.BLAZE_HOUSE;
+        return MetricsEvent.SCANDIUM_HOME;
     }
 }

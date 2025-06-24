@@ -54,9 +54,9 @@ android_library {
 
     srcs: ["src/**/*.java",
 	   "src/**/*.kt",
-	   "src-blaze/**/*.java",
-	   "BlazeHouse/src/**/*.java",
-	   "BlazeHouse/src/**/*.kt",
+	   "src-scandium/**/*.java",
+	   "ScandiumHome/src/**/*.java",
+	   "ScandiumHome/src/**/*.kt",
     ],
 
     exclude_srcs: [
@@ -66,13 +66,13 @@ android_library {
 
     resource_dirs: [
         "res",
-	"res-blaze",
+	"res-scandium",
         "res-export", // for external usage
         "res-product",
-	"BlazeHouse/res",
+	"ScandiumHome/res",
     ],
     
-    aaptflags: ["--extra-packages com.blaze.house",
+    aaptflags: ["--extra-packages com.scandium.home",
                 "--extra-packages github.com.st235.lib_expandablebottombar",
     ],
 

@@ -25,7 +25,7 @@ Copyright (C) The 2022 dotOS Project
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/ic_blaze_shape"
+        android:background="@drawable/ic_scandium_shape"
         android:minWidth="160dp">
 
         <ImageView
@@ -49,7 +49,7 @@ Copyright (C) The 2022 dotOS Project
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/blaze_colorAboutUI"
+            app:cardBackgroundColor="@color/scandium_colorAboutUI"
             app:cardCornerRadius="24dp"
             app:cardElevation="0dp">
 
@@ -92,7 +92,7 @@ Copyright (C) The 2022 dotOS Project
                         android:layout_width="22dp"
                         android:layout_height="22dp"
                         android:layout_gravity="center_vertical"
-                        android:src="@drawable/ic_blaze_device_edit"
+                        android:src="@drawable/ic_scandium_device_edit"
                         android:tint="?android:attr/textColorSecondary" />
                 </LinearLayout>
 
@@ -104,7 +104,7 @@ Copyright (C) The 2022 dotOS Project
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/blaze_colorAboutUI"
+            app:cardBackgroundColor="@color/scandium_colorAboutUI"
             app:cardCornerRadius="24dp"
             app:cardElevation="0dp">
 

@@ -5146,16 +5146,16 @@
         <!-- This is the longest AndroidManifest.xml ever. -->
         
         <!-- Project Blaze additions -->
-        <activity android:name=".Settings$BlazeHouseSettingsActivity"
-                  android:label="@string/blazehouse_title"
-                  android:icon="@drawable/ic_homepage_blaze"
+        <activity android:name=".Settings$ScandiumHomeSettingsActivity"
+                  android:label="@string/scandiumhome_title"
+                  android:icon="@drawable/ic_homepage_scandium"
                   android:exported="true"
                   android:parentActivityName="com.android.settings">
             <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.blaze.house.BlazeHouse"/>
+                       android:value="com.scandium.home.ScandiumHome"/>
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/build_tweaks_summary_title"/>
         </activity>

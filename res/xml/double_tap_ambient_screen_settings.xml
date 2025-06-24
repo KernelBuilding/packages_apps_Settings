@@ -24,7 +24,7 @@
         android:key="gesture_double_tap_screen_video"
         app:lottie_rawRes="@raw/gesture_ambient_tap" />
 
-    <com.blaze.house.preferences.SystemSettingSwitchPreference
+    <com.scandium.home.preferences.SystemSettingSwitchPreference
         android:key="doze_trigger_doubletap"
         android:defaultValue="false"
         android:title="@string/doze_double_tap_title"

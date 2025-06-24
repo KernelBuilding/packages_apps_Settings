@@ -101,11 +101,11 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     protected int getPreferenceScreenResId() {
 	switch (mDashBoardStyle) {
            case 0:
-               return R.xml.blaze_top_level_settings;
+               return R.xml.scandium_top_level_settings;
            case 1:
                return R.xml.top_level_settings;
            default:
-               return R.xml.blaze_top_level_settings;
+               return R.xml.scandium_top_level_settings;
         }
     }
 
@@ -251,14 +251,14 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             Preference pref = screen.getPreference(i);
 	    String key = pref.getKey();
             boolean isValid = pref.isEnabled() && pref.isVisible() && pref.getTitle() != null;
-            if (mDashBoardStyle == 0 && isValid && pref.getLayoutResource() != R.layout.blaze_dashboard_preference_top && 
-                pref.getLayoutResource() != R.layout.blaze_dashboard_preference_full && 
-                pref.getLayoutResource() != R.layout.blaze_dashboard_preference_phone && 
-                pref.getLayoutResource() != R.layout.blaze_dashboard_preference_bottom) {
-                pref.setLayoutResource(R.layout.blaze_dashboard_preference_middle);
+            if (mDashBoardStyle == 0 && isValid && pref.getLayoutResource() != R.layout.scandium_dashboard_preference_top && 
+                pref.getLayoutResource() != R.layout.scandium_dashboard_preference_full && 
+                pref.getLayoutResource() != R.layout.scandium_dashboard_preference_phone && 
+                pref.getLayoutResource() != R.layout.scandium_dashboard_preference_bottom) {
+                pref.setLayoutResource(R.layout.scandium_dashboard_preference_middle);
             } else if (mDashBoardStyle == 1) {
 	    if (key.equals("top_level_network")
-            	|| key.equals("top_level_blaze")
+            	|| key.equals("top_level_scandium")
                 || key.equals("top_level_sound")
                 || key.equals("top_level_apps")
             	|| key.equals("top_level_emergency")
@@ -510,7 +510,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.blaze_top_level_settings) {
+            new BaseSearchIndexProvider(R.xml.scandium_top_level_settings) {
 
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {

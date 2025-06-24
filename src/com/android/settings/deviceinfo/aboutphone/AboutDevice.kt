@@ -25,8 +25,8 @@ class AboutDevice : FrameLayout {
     init {
         inflate(context, R.layout.device_info, this)
         // ROM Version
-        val version = SystemProperties.get("org.blaze.version")
-        val type = SystemProperties.get("ro.blaze.buildtype")
+        val version = SystemProperties.get("org.scandium.version")
+        val type = SystemProperties.get("ro.scandium.buildtype")
 
         findViewById<TextView>(R.id.romVersion)?.text = (if (type == "OFFICIAL") {
             version + " " + context.getString(R.string.about_device_version_type_official)
@@ -44,7 +44,7 @@ class AboutDevice : FrameLayout {
         }
         findViewById<LinearLayout>(R.id.deviceEdit)?.setOnClickListener {
             val alert: AlertDialog.Builder = AlertDialog.Builder(context, R.style.Theme_AlertDialog)
-            val dialogView: View = View.inflate(context, R.layout.blaze_device_name_dialog, null)
+            val dialogView: View = View.inflate(context, R.layout.scandium_device_name_dialog, null)
             val mEditText: EditText? = dialogView.findViewById(R.id.device_edit_text) as? EditText
             alert.setTitle(context.getString(R.string.my_device_info_device_name_preference_title))
             alert.setView(dialogView)

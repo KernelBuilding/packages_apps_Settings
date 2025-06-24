@@ -40,7 +40,7 @@ class AppLockSettingsFragment : DashboardFragment(),
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_settings
 
-    override fun getMetricsCategory() = MetricsProto.MetricsEvent.BLAZE_HOUSE
+    override fun getMetricsCategory() = MetricsProto.MetricsEvent.SCANDIUM_HOME
 
     override protected fun getLogTag() = TAG
 

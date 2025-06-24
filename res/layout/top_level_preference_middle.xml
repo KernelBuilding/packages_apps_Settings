@@ -5,7 +5,7 @@
     android:layout_height="75dp"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
-    android:background="@drawable/blaze_preference_middle_background"
+    android:background="@drawable/scandium_preference_middle_background"
     android:paddingEnd="15dp"
     android:paddingStart="25dp">
 

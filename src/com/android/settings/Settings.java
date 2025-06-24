@@ -487,8 +487,7 @@ public class Settings extends SettingsActivity {
 
     public static class ScreenTimeoutActivity extends SettingsActivity { /* empty */ }
 
-    // BlazeHouse Additions.
-    public static class BlazeHouseSettingsActivity extends SettingsActivity {}
+    public static class ScandiumHomeSettingsActivity extends SettingsActivity {}
 
     /** Activity for the Reset mobile network settings. */
     public static class ResetMobileNetworkSettingsActivity extends SettingsActivity { /* empty */ }

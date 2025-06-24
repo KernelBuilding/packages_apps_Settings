@@ -30,13 +30,13 @@
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
-    <!-- Blaze version -->
+    <!-- Scandium version -->
     <Preference
-         android:key="blaze_version"
-         android:title="@string/blaze_version"
+         android:key="scandium_version"
+         android:title="@string/scandium_version"
          android:summary="@string/summary_placeholder"
          settings:enableCopying="true"
-         settings:controller="com.android.settings.deviceinfo.firmwareversion.BlazeVersionPreferenceController"/>
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.ScandiumVersionPreferenceController"/>
 
     <!-- Android version -->
     <Preference
@@ -47,13 +47,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Blaze Maintainer  -->
+    <!-- Scandium Maintainer  -->
     <Preference
-        android:key="blaze_maintainer"
-        android:title="@string/blaze_maintainer"
+        android:key="scandium_maintainer"
+        android:title="@string/scandium_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BlazeMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ScandiumMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

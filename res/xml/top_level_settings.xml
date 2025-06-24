@@ -47,13 +47,13 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
-        android:key="top_level_blaze"
-        android:title="@string/blazehouse_title"
+        android:key="top_level_scandium"
+        android:title="@string/scandiumhome_title"
         android:summary="@string/build_tweaks_summary_title"
-        android:icon="@drawable/ic_settings_blaze"
+        android:icon="@drawable/ic_settings_scandium"
         android:order="-130"
-        android:fragment="com.blaze.house.BlazeHouse"
-        settings:controller="com.blaze.house.TopLevelExtensionsEntryPreferenceController" />
+        android:fragment="com.scandium.home.ScandiumHome"
+        settings:controller="com.scandium.home.TopLevelExtensionsEntryPreferenceController" />
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.DisplaySettings"
