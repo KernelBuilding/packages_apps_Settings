@@ -17,11 +17,35 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
+    <!-- About ScandiumOS -->
+    <string name="about_scandium">About ScandiumOS</string>
+
     <!-- About phone screen, Scandium OS version -->
     <string name="about_device_name">Device</string>
     <string name="scandium_version">ScandiumOS version</string>
     <string name="scandium_version_default">Unknown</string>
     <string name="keywords_scandium_version">ScandiumOS version, scandium version</string>
+
+    <!-- About -->
+    <string name="about_info">ScandiumOS is an Android custom ROM based on AOSP, Android OS with Minimal Design and better performance.</string>
+    <string name="rom_info_title">Information about ScandiumOS</string>
+    <string name="about_website_title">Website</string>
+    <string name="about_website_summary">You can visit to our website</string>
+    <string name="about_github_title" translatable="false">GitHub</string>
+    <string name="about_github_summary">Check out our GitHub</string>
+    <string name="about_telegram_title">Telegram</string>
+    <string name="about_telegram_summary">Check update and news in our telegram </string>
+    <string name="about_contributors_title">Contributors</string>
+    <string name="about_contributor_1_title" translatable="false">Rayhan77</string>
+    <string name="about_contributor_1_summary" translatable="false">Founder</string>
+    <string name="about_contributor_2_title" translatable="false">PGYT PROJECT</string>
+    <string name="about_contributor_2_summary" translatable="false">Co-founder & Lead Developer</string>
+    <string name="about_contributor_3_title" translatable="false">Piccaso09</string>
+    <string name="about_contributor_3_summary" translatable="false">Core Developer</string>
+    <string name="about_contributor_4_title" translatable="false">Rza</string>
+    <string name="about_contributor_4_summary" translatable="false">UI/UX Design</string>
+    <string name="about_contributor_5_title" translatable="false">Muhammad Adit Alfatah</string>
+    <string name="about_contributor_5_summary" translatable="false">UI/UX Design</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>

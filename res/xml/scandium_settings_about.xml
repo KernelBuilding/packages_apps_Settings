@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2016-2024 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/about_scandium">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="scandium_logo"
+        android:layout="@layout/scandium_about_logo"
+        android:clickable="false" />
+
+   <PreferenceCategory
+        android:key="RomInfo"
+        android:title="@string/rom_info_title" />
+
+    <!-- Info -->
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/about_info" />
+
+    <!-- Website -->
+    <Preference
+        android:title="@string/about_website_title"
+        android:icon="@drawable/ic_website"
+        android:summary="@string/about_website_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://scandiumui.vercel.app" />
+    </Preference>
+
+    <!-- Github -->
+    <Preference
+        android:title="@string/about_github_title"
+        android:icon="@drawable/ic_github"
+        android:summary="@string/about_github_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/ScandiumOS-14" />
+    </Preference>
+
+    <!-- Telegram -->
+    <Preference
+        android:title="@string/about_telegram_title"
+        android:icon="@drawable/ic_telegram"
+        android:summary="@string/about_telegram_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/ScandiumUiUpdates" />
+    </Preference>
+
+    <PreferenceCategory
+        android:key="contributors"
+        android:title="@string/about_contributors_title" />
+
+    <!-- Contributor 1 -->
+        <Preference
+            android:icon="@drawable/rayhan77"
+            android:title="@string/about_contributor_1_title"
+            android:summary="@string/about_contributor_1_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/akemiinawa" />
+        </Preference>
+
+    <!-- Contributor 2 -->
+        <Preference
+            android:icon="@drawable/projectkernel3"
+            android:title="@string/about_contributor_2_title"
+            android:summary="@string/about_contributor_2_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ProjectKernel3" />
+        </Preference>
+
+    <!-- Contributor 3 -->
+        <Preference
+            android:icon="@drawable/picasso09"
+            android:title="@string/about_contributor_3_title"
+            android:summary="@string/about_contributor_3_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/picasso170606" />
+        </Preference>
+
+    <!-- Contributor 4 -->
+        <Preference
+	    android:icon="@drawable/rza"
+            android:title="@string/about_contributor_4_title"
+            android:summary="@string/about_contributor_4_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Rza9X" />
+        </Preference>
+
+    <!-- Contributor 5 -->
+        <Preference
+            android:icon="@drawable/adit"
+            android:title="@string/about_contributor_5_title"
+            android:summary="@string/about_contributor_5_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/KEIREIREA" />
+        </Preference>
+</PreferenceScreen>
