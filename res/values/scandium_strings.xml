@@ -19,6 +19,7 @@
 
     <!-- About ScandiumOS -->
     <string name="about_scandium">About ScandiumOS</string>
+    <string name="about_scandium_summary">You can find all information about ScandiumOS</string>
 
     <!-- About phone screen, Scandium OS version -->
     <string name="about_device_name">Device</string>

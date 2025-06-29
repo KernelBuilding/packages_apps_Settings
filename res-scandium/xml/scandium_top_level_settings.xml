@@ -18,13 +18,23 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_about_scandium"
+        android:order="-205"
+        android:title="@string/scandium_dashboard_about"
+	    android:icon="@drawable/ic_settings_about_scandium"
+        android:summary="@string/summary_placeholder"
+        settings:layout="@layout/scandium_dashboard_preference_top"
+	    android:fragment="com.android.settings.deviceinfo.aboutphone.AboutScandiumFragment"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutScandiumPreferenceController" />
+
+    <Preference
         android:key="top_level_scandium"
         android:title="@string/scandiumhome_title"
         android:summary="@string/build_tweaks_summary_title"
         android:icon="@drawable/ic_settings_scandium"
         android:order="-204"
         android:fragment="com.scandium.home.ScandiumHome"
-	settings:layout="@layout/scandium_dashboard_preference_bottom"
+      	settings:layout="@layout/scandium_dashboard_preference_bottom"
         settings:controller="com.scandium.home.TopLevelExtensionsEntryPreferenceController" />
 
     <PreferenceCategory

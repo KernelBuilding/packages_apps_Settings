@@ -13,6 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="scandium_dashboard_about">About ScandiumOS</string>
     <string name="scandium_dashboard_device">About Phone</string>
     <string name="scandium_dashboard_account">Account</string>
     <string name="scandium_dashboard_network">Internet</string>
