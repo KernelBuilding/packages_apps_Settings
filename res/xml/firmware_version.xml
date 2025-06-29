@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Scandium Logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="scandium_logo_about"
+        android:layout="@layout/scandium_logo_about"
+        android:selectable="false"/>
+
     <!-- Device Name -->
     <Preference
         android:key="about_device_name"
