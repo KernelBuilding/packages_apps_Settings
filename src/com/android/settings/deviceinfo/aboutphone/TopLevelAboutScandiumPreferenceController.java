@@ -22,7 +22,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class TopLevelAboutScandiumPreferenceController extends BasePreferenceController {
 
-    public TopLevelAboutDevicePreferenceController(Context context, String preferenceKey) {
+    public TopLevelAboutScandiumPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 
