@@ -10,4 +10,9 @@ public class AboutScandiumFragment extends SettingsPreferenceFragment {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.scandium_settings_about); 
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return 16894;
+    }
 }
