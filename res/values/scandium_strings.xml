@@ -19,7 +19,7 @@
 
     <!-- About ScandiumOS -->
     <string name="about_scandium">About ScandiumOS</string>
-    <string name="about_scandium_summary">You can find all information about ScandiumOS</string>
+    <string name="about_scandium_summary">Tap to show info about ScandiumOS</string>
 
     <!-- About phone screen, Scandium OS version -->
     <string name="about_device_name">Device</string>
@@ -47,6 +47,8 @@
     <string name="about_contributor_4_summary" translatable="false">UI/UX Design</string>
     <string name="about_contributor_5_title" translatable="false">Muhammad Adit Alfatah</string>
     <string name="about_contributor_5_summary" translatable="false">UI/UX Design</string>
+    <string name="about_contributor_6_title" translatable="false">JokoNotoBoto</string>
+    <string name="about_contributor_6_summary" translatable="false">Logo Design</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>

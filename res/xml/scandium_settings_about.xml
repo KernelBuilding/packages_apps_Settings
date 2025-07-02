@@ -120,4 +120,15 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/KEIREIREA" />
         </Preference>
+
+    <!-- Contributor 6 -->
+        <Preference
+            android:icon="@drawable/joko"
+            android:title="@string/about_contributor_6_title"
+            android:summary="@string/about_contributor_6_summary"
+            settings:layout="@layout/scandium_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/jokonotoboto" />
+        </Preference>
 </PreferenceScreen>
