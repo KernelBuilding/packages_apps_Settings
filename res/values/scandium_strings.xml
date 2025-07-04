@@ -65,6 +65,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
+
+    <!-- High touch rate -->
+    <string name="touch_rate_title">Increase touch polling rate</string>
+    <string name="touch_rate_summary">Improves touch response by utilizing a higher polling rate</string>
     
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
